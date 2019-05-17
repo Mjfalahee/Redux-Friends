@@ -35,19 +35,24 @@ class LoginPage extends React.Component {
                 <input
                     type="text"
                     name="username"
+                    placeholder="Username"
                     onChange={this.handleChanges}
                     value={this.state.auth.username}> 
                 </input>
 
                 <input
                     type="text"
-                    name="username"
+                    name="password"
+                    placeholder="Password"
                     onChange={this.handleChanges}
                     value={this.state.auth.password}> 
                 </input>
 
                 <button>Login</button>
             </form>
+
+
+            <p>The login info may or may not be: taco taco </p>
         </div>
         )
     }
