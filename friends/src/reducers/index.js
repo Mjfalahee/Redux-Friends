@@ -1,7 +1,13 @@
 // import action creators
 
 const initialState = {
-    friends: []
+    friends: [],
+    deletingFriend: false,
+    fetchingFriends: false,
+    logginIn: false,
+    savingFriends: false,
+    updatingFriend: false,
+    error: null
 };
 
 function reducer(state = initialState, action) {
